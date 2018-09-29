@@ -1,0 +1,104 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1538205049727" stop="1538205049865">
+  <name>test01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1538205049727" status="passed" stop="1538205049731">
+      <name>Test01.test01</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1304-MainThread"/>
+        <label name="host" value="ZGC-20180627YWW"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1538205049730" status="passed" stop="1538205049731">
+          <name>执行学院添加操作</name>
+          <title>执行学院添加操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1538205049732" status="failed" stop="1538205049838">
+      <name>Test01.test02</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test01.Test01 object at 0x0000000003AAE828&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
+    @allure.step("执行学院更新操作")
+    def test02(self):
+        allure.attach("断言开始","学院更新是否成功")
+        print("执行学院更新操作")
+        allure.attach("断言结束","学员更新成功")
+&gt;       assert 0
+E       assert 0
+
+Scripts\test01.py:16: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="1304-MainThread"/>
+        <label name="host" value="ZGC-20180627YWW"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1538205049734" status="failed" stop="1538205049751">
+          <name>执行学院更新操作</name>
+          <title>执行学院更新操作</title>
+          <attachments>
+            <attachment source="77dee59f-0650-4e94-8ba8-f1f8f3070fdd-attachment.txt" title="断言开始" type="text/plain"/>
+            <attachment source="17937ed1-7bbc-42c7-8a8e-84d32eaa91dc-attachment.txt" title="断言结束" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1538205049827" status="failed" stop="1538205049827">
+          <name>执行学院更新操作</name>
+          <title>执行学院更新操作</title>
+          <attachments>
+            <attachment source="f23e4609-c2a1-4a59-a16b-2826c84c7b7b-attachment.txt" title="断言开始" type="text/plain"/>
+            <attachment source="cca3a0de-cc51-44ba-b236-b73c764cd224-attachment.txt" title="断言结束" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1538205049834" status="failed" stop="1538205049834">
+          <name>执行学院更新操作</name>
+          <title>执行学院更新操作</title>
+          <attachments>
+            <attachment source="9cf031b4-0929-4877-a8f3-631ee90b998b-attachment.txt" title="断言开始" type="text/plain"/>
+            <attachment source="c7aab116-6ff9-4949-a302-85facd8ff60a-attachment.txt" title="断言结束" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1538205049844" status="failed" stop="1538205049865">
+      <name>Test01.test03</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test01.Test01 object at 0x0000000003AE9470&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    def test03(self):
+        print("test03执行成功")
+&gt;       assert 0
+E       assert 0
+
+Scripts\test01.py:21: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="1304-MainThread"/>
+        <label name="host" value="ZGC-20180627YWW"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "ZGC-20180627YWW",
+    "children" : [ {
+      "name" : "7820-MainThread",
+      "children" : [ {
+        "name" : "Test01.test01",
+        "uid" : "baa7966da4f33f2c",
+        "parentUid" : "fb8c6083cadeb267b4df750eb544e56d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1538191849240,
+          "stop" : 1538191849245,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb8c6083cadeb267b4df750eb544e56d"
+    } ],
+    "uid" : "8d6c0cebe07d8f96d92f913e566d8033"
+  } ]
+}
